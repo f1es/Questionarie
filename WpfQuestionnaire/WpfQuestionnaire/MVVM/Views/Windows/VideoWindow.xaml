@@ -1,0 +1,60 @@
+﻿<Window x:Class="WpfQuestionnaire.MVVM.Views.Windows.VideoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfQuestionnaire.MVVM.Views.Windows"
+        mc:Ignorable="d"
+        Title="VideoWindow" 
+        Height="1920" Width="1080"
+        WindowState="Maximized"
+        Background="Transparent"
+        AllowsTransparency="True"
+        WindowStyle="None"
+        Topmost="True">
+
+    <Border Background="#FF2F2F2F">
+        <Border.InputBindings>
+            <MouseBinding MouseAction="LeftClick"
+                          Command="{Binding ClickCommand}"/>
+        </Border.InputBindings>
+        
+        
+        
+        <Grid>
+            <MediaElement Height="auto"
+                          Width="auto"
+                          Volume="0.0">
+                
+                <MediaElement.Triggers>
+                    <EventTrigger RoutedEvent="MediaElement.Loaded">
+                        <EventTrigger.Actions>
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <!-- MediaTimeline с RepeatBehavior="Forever" позволяет медиа воспроизводиться бесконечно. -->
+                                    <!--<MediaTimeline Source="x:\vs\wpfquestionnaireredesign\wpfquestionnaire\images\2_5415746845911555592.mp4
+" RepeatBehavior="Forever"/>-->
+                                    <MediaTimeline Source="{Binding VideoPath}" RepeatBehavior="Forever"/>
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger.Actions>
+                    </EventTrigger>
+                </MediaElement.Triggers>
+            </MediaElement>
+
+            <TextBlock Style="{StaticResource TextBlockStyle}"
+                       FontFamily="{StaticResource GilroySemibold}"
+                       Text="Нажмите чтобы начать"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Bottom"
+                       Margin="0,0,0,100"/>
+
+            <!--<TextBlock Text="{Binding Counter}"
+                   Height="50"
+                   Width="100"
+                   FontSize="18"
+                   VerticalAlignment="Bottom"/>-->
+        </Grid>
+    </Border>
+    
+</Window>

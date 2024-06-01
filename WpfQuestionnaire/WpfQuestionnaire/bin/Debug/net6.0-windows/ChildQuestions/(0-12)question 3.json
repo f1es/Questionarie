@@ -1,0 +1,12 @@
+{
+    "QuestionString": "Что тебе нравится больше?",
+    "BackgroundSource": "\\Images\\image 4189.png",
+    "Answers": [
+        "шить, вязать, мастерить, ремонтировать игрушки",
+        "рисовать"
+    ],
+    "AnswersScore": [
+        2,
+        4
+    ]
+}

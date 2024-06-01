@@ -1,0 +1,104 @@
+﻿<Page x:Class="WpfQuestionnaire.MVVM.Views.Pages.SwitchTestPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfQuestionnaire.MVVM.Views.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="{StaticResource FrameHeight}" 
+      d:DesignWidth="{StaticResource FrameWidth}"
+      Title="SwitchTestPage">
+
+    <Grid>
+        
+        <!--Psu logo-->
+        <Image Source="/Images/Лого ПГУ рус длинное 2022 1.png"
+               VerticalAlignment="Top"
+               Width="900"
+               Margin="0,25,0,0"/>
+
+        <!--Select Age Panel-->
+        <Border CornerRadius="50"
+            Width="980"
+            Height="900"
+            VerticalAlignment="Bottom"
+            Background="#FFFFFF"
+            Margin="0,150,0,280">
+
+            <!--Inactive-->
+            <Border.InputBindings>
+                <MouseBinding MouseAction="LeftClick"
+                          Command="{Binding ClickCommand}"/>
+            </Border.InputBindings>
+            
+            <Grid>
+
+                <!--Test logo-->
+                <StackPanel VerticalAlignment="Center"
+                            Margin="0,0,0,400">
+                    <TextBlock Style="{StaticResource TextBlockStyle}"
+                           FontFamily="{StaticResource GilroyLight}"
+                           Text="ТЕСТ"
+                           Foreground="#4A37FE"
+                           HorizontalAlignment="Center"
+                           FontSize="40.56"/>
+
+                    <TextBlock Style="{StaticResource TextBlockStyle}"
+                           FontFamily="{StaticResource GilroyBold}"
+                           Text="«ТВОЯ БУДУЩАЯ &#x0a; ГРУППА ПРОФЕССИЙ»"
+                           TextAlignment="Center"
+                           Foreground="#4A37FE"
+                           HorizontalAlignment="Center"
+                           FontSize="40.56"/>
+                </StackPanel>
+
+                <!--Select age text-->
+                <TextBlock Style="{StaticResource TextBlockStyle}"
+                       Text="Пожалуйста, выберите возраст"
+                       Margin="0,100,0,0"
+                       Foreground="#282828"
+                       FontFamily="{StaticResource GilroySemibold}"
+                       FontSize="32"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center"/>
+
+                <!--Select age buttons-->
+                <WrapPanel HorizontalAlignment="Center"
+                           VerticalAlignment="Bottom"
+                           Margin="0,0,0,200">
+                    <Button Height="90"
+                            Width="285"
+                            Grid.Row="1"
+                            Style="{StaticResource ButtonWithBorder}"
+                            Content="0-12 лет"
+                            FontFamily="{StaticResource GilroyBold}"
+                            Command="{Binding StartChildTestCommand}"
+                            Margin="0,0,50,0"/>
+
+                    <Button Height="90"
+                            Width="285"
+                            Grid.Row="1"
+                            Style="{StaticResource ButtonWithBorder}"
+                            Content="12-18 лет"
+                            FontFamily="{StaticResource GilroyBold}"
+                            Command="{Binding StartTeenTestCommand}"/>
+                </WrapPanel>
+                
+            </Grid>
+        </Border>
+
+        <Button Width="200"
+                Height="90"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Bottom"
+                Style="{StaticResource ButtonTranspaernt}"
+                Margin="0,0,0,96"
+                Command="{Binding OpenVideo}">
+            <TextBlock Text="на главную" 
+                       TextDecorations="Underline"/>
+        </Button>
+
+    </Grid>
+    
+    
+</Page>

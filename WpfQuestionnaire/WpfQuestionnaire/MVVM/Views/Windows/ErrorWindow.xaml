@@ -1,0 +1,47 @@
+﻿<Window x:Class="WpfQuestionnaire.MVVM.Views.Windows.ErrorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfQuestionnaire.MVVM.Views.Windows"
+        mc:Ignorable="d"
+        Title="ErrorWindow" 
+        WindowStyle="None"
+        Background="Transparent"
+        Topmost="True"
+        AllowsTransparency="True"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        WindowState="Maximized">
+    <Border CornerRadius="20"
+            Height="850" 
+            Width="700">
+        <Border.Background>
+            <LinearGradientBrush>
+                <!--<GradientStop Color="#FF554D7D" Offset="0.1"/>
+                <GradientStop Color="#FF351544" Offset="1"/>-->
+                <GradientStop Color="#FF4E505F" Offset="0.1"/>
+                <GradientStop Color="#FF54555A" Offset="1"/>
+            </LinearGradientBrush>
+        </Border.Background>
+        <Grid>
+
+            <TextBlock Style="{StaticResource TextBlockStyle}"
+                       Text="Чтобы увидеть результаты теста, необходимо ответить на все вопросы!"
+                       Height="700"
+                       Width="575"
+                       FontSize="28"/>
+
+            <Button Style="{StaticResource DoneButtonStyle}"
+                    Height="75"
+                    Width="175" 
+                    Content="Понятно"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Bottom"
+                    Margin="0,0,0,25"
+                    Command="{Binding DoneCommand}"/>
+
+        </Grid>
+    </Border>
+    
+</Window>

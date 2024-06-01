@@ -1,0 +1,108 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Fonts\Gilroy-ExtraBold.otf" />
+    <None Remove="Fonts\Gilroy-Light.otf" />
+    <None Remove="Fonts\gilroy-semibold.ttf" />
+    <None Remove="Images\BlackCross.png" />
+    <None Remove="Images\Cross.png" />
+    <None Remove="Images\i.png" />
+    <None Remove="Images\image 4175.png" />
+    <None Remove="Images\image 4176.png" />
+    <None Remove="Images\image 4177.png" />
+    <None Remove="Images\image 4178.png" />
+    <None Remove="Images\image 4179.png" />
+    <None Remove="Images\image 4181.png" />
+    <None Remove="Images\image 4182.png" />
+    <None Remove="Images\image 4183.png" />
+    <None Remove="Images\image 4184.png" />
+    <None Remove="Images\image 4185.png" />
+    <None Remove="Images\image 4186.png" />
+    <None Remove="Images\image 4188.png" />
+    <None Remove="Images\image 4189.png" />
+    <None Remove="Images\image 4190.png" />
+    <None Remove="Images\image 4191.png" />
+    <None Remove="Images\image 4192.png" />
+    <None Remove="Images\image 4193.png" />
+    <None Remove="Images\image 4194.png" />
+    <None Remove="Images\image 4195.png" />
+    <None Remove="Images\image 4196.png" />
+    <None Remove="Images\image 4197.png" />
+    <None Remove="Images\image 4198.png" />
+    <None Remove="Images\image 4199.png" />
+    <None Remove="Images\image 4200.png" />
+    <None Remove="Images\image 4201.png" />
+    <None Remove="Images\image 4202.png" />
+    <None Remove="Images\image 4203.png" />
+    <None Remove="Images\image 4204.png" />
+    <None Remove="Images\image 4206.png" />
+    <None Remove="Images\image 4207.png" />
+    <None Remove="Images\image 4208.png" />
+    <None Remove="Images\image 4209.png" />
+    <None Remove="Images\image 4211.png" />
+    <None Remove="Images\image 4212.png" />
+    <None Remove="Images\image 4213.png" />
+    <None Remove="Images\image 4214.png" />
+    <None Remove="Images\image 4215.png" />
+    <None Remove="Images\Left Arrow.png" />
+    <None Remove="Images\Right Arrow.png" />
+    <None Remove="Images\Лого ПГУ рус длинное 2022 1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Fonts\Gilroy-ExtraBold.otf" />
+    <Resource Include="Fonts\Gilroy-Light.otf" />
+    <Resource Include="Fonts\gilroy-semibold.ttf" />
+    <Resource Include="Images\BlackCross.png" />
+    <Resource Include="Images\Cross.png" />
+    <Resource Include="Images\i.png" />
+    <Resource Include="Images\image 4175.png" />
+    <Resource Include="Images\image 4176.png" />
+    <Resource Include="Images\image 4177.png" />
+    <Resource Include="Images\image 4178.png" />
+    <Resource Include="Images\image 4179.png" />
+    <Resource Include="Images\image 4181.png" />
+    <Resource Include="Images\image 4182.png" />
+    <Resource Include="Images\image 4183.png" />
+    <Resource Include="Images\image 4184.png" />
+    <Resource Include="Images\image 4185.png" />
+    <Resource Include="Images\image 4186.png" />
+    <Resource Include="Images\image 4188.png" />
+    <Resource Include="Images\image 4189.png" />
+    <Resource Include="Images\image 4190.png" />
+    <Resource Include="Images\image 4191.png" />
+    <Resource Include="Images\image 4192.png" />
+    <Resource Include="Images\image 4193.png" />
+    <Resource Include="Images\image 4194.png" />
+    <Resource Include="Images\image 4195.png" />
+    <Resource Include="Images\image 4196.png" />
+    <Resource Include="Images\image 4197.png" />
+    <Resource Include="Images\image 4198.png" />
+    <Resource Include="Images\image 4199.png" />
+    <Resource Include="Images\image 4200.png" />
+    <Resource Include="Images\image 4201.png" />
+    <Resource Include="Images\image 4202.png" />
+    <Resource Include="Images\image 4203.png" />
+    <Resource Include="Images\image 4204.png" />
+    <Resource Include="Images\image 4206.png" />
+    <Resource Include="Images\image 4207.png" />
+    <Resource Include="Images\image 4208.png" />
+    <Resource Include="Images\image 4209.png" />
+    <Resource Include="Images\image 4211.png" />
+    <Resource Include="Images\image 4212.png" />
+    <Resource Include="Images\image 4213.png" />
+    <Resource Include="Images\image 4214.png" />
+    <Resource Include="Images\image 4215.png" />
+    <Resource Include="Images\Left Arrow.png" />
+    <Resource Include="Images\Right Arrow.png" />
+    <Resource Include="Images\Лого ПГУ рус длинное 2022 1.png" />
+  </ItemGroup>
+
+</Project>

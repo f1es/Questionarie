@@ -1,0 +1,7 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <FontFamily x:Key="GilroyLight">\Fonts\Gilroy-Light.otf#Gilroy Light</FontFamily>
+    <FontFamily x:Key="GilroyBold">\Fonts\Gilroy-ExtraBold.otf#Gilroy Bold</FontFamily>
+    <FontFamily x:Key="GilroySemibold">\Fonts\gilroy-semibold.ttf#Gilroy Semibold</FontFamily>
+    <!--<Setter x:Key="GilroyLight" Property="FontFamily" Value="Fonts\gilroy-extrabold.otf #gilroy bold"/>-->
+</ResourceDictionary>
