@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "X:\\vs\\Questionarie\\WpfQuestionnaire\\WpfQuestionnaire\\WpfQuestionnaire.csproj",
+      "projectUniqueName": "X:\\vs\\Новая папка\\Questionarie\\WpfQuestionnaire\\WpfQuestionnaire\\WpfQuestionnaire.csproj",
       "projectName": "WpfQuestionnaire",
-      "projectPath": "X:\\vs\\Questionarie\\WpfQuestionnaire\\WpfQuestionnaire\\WpfQuestionnaire.csproj",
+      "projectPath": "X:\\vs\\Новая папка\\Questionarie\\WpfQuestionnaire\\WpfQuestionnaire\\WpfQuestionnaire.csproj",
       "packagesPath": "C:\\Users\\илья флекс\\.nuget\\packages\\",
-      "outputPath": "X:\\vs\\Questionarie\\WpfQuestionnaire\\WpfQuestionnaire\\obj\\",
+      "outputPath": "X:\\vs\\Новая папка\\Questionarie\\WpfQuestionnaire\\WpfQuestionnaire\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\илья флекс\\AppData\\Roaming\\NuGet\\NuGet.Config",

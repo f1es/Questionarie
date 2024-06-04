@@ -48,3 +48,41 @@ X:\vs\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\
 X:\vs\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\WpfQuestionnaire.pdb
 X:\vs\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\WpfQuestionnaire.genruntimeconfig.cache
 X:\vs\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\ref\WpfQuestionnaire.dll
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\WpfQuestionnaire.csproj.AssemblyReference.cache
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\Themes\AnswerButtonTheme.baml
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\Themes\ArrowButtonTheme.baml
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\Themes\BlackCross.baml
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\Themes\ButtonWithBorder.baml
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\Themes\Colors.baml
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\Themes\DoneButtonTheme.baml
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\Themes\Fonts.baml
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\Themes\ProgressBar.baml
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\Themes\PurpleButton.baml
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\Themes\RadioButtonTheme.baml
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\Themes\SizesDictionary.baml
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\Themes\TextBlockTheme.baml
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\Themes\TranspaerntButton.baml
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\Themes\WhiteButton.baml
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\MainWindow.g.cs
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\MVVM\Views\Pages\ChildQuestionsPage.g.cs
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\MVVM\Views\Pages\ExitPage.g.cs
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\MVVM\Views\Pages\ResultPage.g.cs
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\MVVM\Views\Pages\SwitchTestPage.g.cs
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\MVVM\Views\Pages\TeenQuestionsPage.g.cs
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\MVVM\Views\Windows\ErrorWindow.g.cs
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\MVVM\Views\Windows\VideoWindow.g.cs
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\App.g.cs
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\WpfQuestionnaire_MarkupCompile.cache
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\WpfQuestionnaire_MarkupCompile.lref
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\App.baml
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\MainWindow.baml
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\MVVM\Views\Pages\ChildQuestionsPage.baml
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\MVVM\Views\Pages\ExitPage.baml
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\MVVM\Views\Pages\ResultPage.baml
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\MVVM\Views\Pages\SwitchTestPage.baml
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\MVVM\Views\Pages\TeenQuestionsPage.baml
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\MVVM\Views\Windows\ErrorWindow.baml
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\MVVM\Views\Windows\VideoWindow.baml
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\WpfQuestionnaire.g.resources
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\refint\WpfQuestionnaire.dll
+X:\vs\Новая папка\Questionarie\WpfQuestionnaire\WpfQuestionnaire\obj\Release\net6.0-windows\WpfQuestionnaire.pdb
